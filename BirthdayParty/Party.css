@@ -7,7 +7,7 @@
   }
   .figure img.Sirv.image-main {
     position: absolute;
-    width: 550px;
+    width: 650px;
     height: auto;
     top: 0;
     bottom: 0;
@@ -15,7 +15,7 @@
   }
   .figure img.Sirv.image-hover {
     position: absolute;
-    width: 540px;
+    width: 650px;
     height: auto;
     top: 0;
     bottom: 0;
@@ -37,7 +37,7 @@ video {
     height: 100%;
     object-fit: cover;
     position: fixed;
-    padding-left: 150px;
+    padding-left: 655px;
     top: 0;
     bottom: 0;
     z-index: -1;
