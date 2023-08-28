@@ -1,0 +1,88 @@
+  .figure {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 0;
+    bottom: 0;
+  }
+  .figure img.Sirv.image-main {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    padding-left: 450px;;
+  }
+  .figure img.Sirv.image-hover {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    padding-left: 450px;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.Sirv.image-hover {
+    opacity: 1;
+  }
+
+  .figure:hover img.Sirv.image-main {
+    opacity: 0;
+  }
+
+video { 
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    padding-left: 350px;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.hidden {
+    display: none;
+}
+
+body { 
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.change-multi-color {
+    animation-name: change-multi-color;
+}
+
+@keyframes change-multi-color {
+    from {
+        background-color: aquamarine;
+    }
+
+    50% {
+        background-color: palevioletred;
+    }
+
+    to { 
+        background-color: pink;
+    }
+
+    50% { 
+        background-color: orange;
+    }
+
+    to {
+        background-color: yellow;
+    }
+
+    50% { 
+        background-color: yellowgreen;
+    }
+
+    to {
+        background-color: green;
+    }
+}
