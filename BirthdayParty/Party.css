@@ -11,7 +11,7 @@
     height: auto;
     top: 0;
     bottom: 0;
-    padding-left: 550px;
+    padding-left: 850px;
   }
   .figure img.Sirv.image-hover {
     position: absolute;
@@ -19,7 +19,7 @@
     height: auto;
     top: 0;
     bottom: 0;
-    padding-left: 550px;
+    padding-left: 850px;
     object-fit: contain;
     opacity: 0;
     transition: opacity .2s;
