@@ -1,0 +1,20 @@
+.card {
+    width: 500px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    margin-left: 155px;
+}
+.card .img-top {
+    width: 500px;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    margin-left: 155px;
+}
+.card:hover .img-top {
+    display: inline;
+}
