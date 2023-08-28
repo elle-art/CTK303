@@ -43,8 +43,10 @@ video {
     z-index: -1;
 }
 
-.hidden {
-    display: none;
+audio {
+  padding-left: 20px;
+  position: fixed;
+
 }
 
 body { 
