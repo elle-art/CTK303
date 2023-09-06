@@ -1,5 +1,4 @@
 body {
-    background-color: #3b393b;
     font-family: "kallisto", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -39,11 +38,16 @@ header img {
 
 main {
     padding: 0px;
-    padding-bottom: 800px;
+    padding-bottom: 900px;
     margin: 0px;
     grid-column: span 10;
     /* border: 1px solid rgb(64, 0, 255); */
   } 
+
+  footer{
+    position: absolute;
+    margin-top: 1900px;
+  }
 
   a {
     text-decoration: none;
@@ -322,14 +326,15 @@ main {
     position: absolute;
     left:0;
     right:0;
-    margin: auto;
-    width: 200px;
     height: 200px;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 200px;
     background-color: #aeafb9e5;
     border-radius: 100%;
     box-shadow: 0px 0px 8px rgba(0,0,0,0.5) inset;
-    padding-left: 10px;
-    margin-top: 8%;
+
   }
   .innerCircle .content {
     position: absolute;
@@ -381,7 +386,7 @@ main {
     position: absolute;
     left: -300px;
     margin-top: 65%;
-    animation: vroom 6s ease 6s normal 1 forwards;
+    animation: vroom 6s ease 7.5s normal 1 forwards;
     max-width: 350px;
   }
 
@@ -389,20 +394,17 @@ main {
     position: absolute;
     left: -300px;
     margin-top: 80%;
-    animation: vroom 6s ease 5s normal 1 forwards;
+    animation: vroom 6s ease 7s normal 1 forwards;
     max-width: 350px;
   }
 
   @keyframes vroom {
     from {
       left: -300px;
-      width: 300%;
     }
   
     to {
-      left: 830px;
-      width: 100%;
-      opacity:1;
+      left: 70%;
     }
   }
 
@@ -413,7 +415,7 @@ main {
         display: none;
     }
       100%    {
-        left:100px;
+        left: 10%;
         opacity:1;
         display:block;
     }
