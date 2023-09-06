@@ -1,0 +1,420 @@
+body {
+    background-color: #3b393b;
+    font-family: "kallisto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 0px;
+}
+
+.sub {
+    font-family: "kallisto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+#wrapper {
+    margin: 0px;
+    width: auto;
+    padding: 0px;
+    background-color: #3b393b;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-column-gap: 12px;
+    /* border: 1px solid red; */
+}
+
+header {
+    grid-column: span 10;
+}
+
+header img {
+    height: auto;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    grid-column: span 10;
+}
+
+main {
+    padding: 0px;
+    padding-bottom: 800px;
+    margin: 0px;
+    grid-column: span 10;
+    /* border: 1px solid rgb(64, 0, 255); */
+  } 
+
+  a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-top: 0px;
+    transition: width 1.0s, color 0.5s;
+
+  }
+
+  a:hover {
+    color: lightpink;
+  }
+
+  h3 {
+    margin-bottom: 5px;
+  }
+
+.in {
+    grid-column: span 10 ;
+    height: auto;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    grid-column: span 10;
+}
+
+  .roundedbox_left { 
+    background-color: #a9a8a8;
+    padding: 5px;
+    padding-left: 30px;
+    width: 25%;
+    height: auto;
+    border-radius: 0px 20px 20px 0px;
+  }
+
+  .roundedbox_right { 
+    background-color: #a9a8a8;
+    padding: 5px;
+    padding-left: 30px;
+    width: 25%;
+    height: auto;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+.pieContainer {
+    position: absolute;
+    padding: 10px;
+    padding-top: 80px;
+    left:0;
+    right:0;
+    height: auto;
+    margin: auto;
+    max-width: 100vw;
+    /* border: 1px solid rgb(64, 0, 255); */
+  }
+  
+  .pieBackground {
+    position: absolute;
+    left:0;
+    right:0;
+    height: auto;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+  } 
+  
+  .pie {
+    position: absolute;
+    left:0;
+    right:0;
+    height: auto;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    clip: rect(0px, 200px, 400px, 0px);
+  }
+  
+  .hold {
+    position: absolute;
+    left:0;
+    right:0;
+    height: auto;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    clip: rect(0px, 400px, 400px, 200px);
+  }
+  
+  #car1 .pie {
+    background-color: #935CDC;
+    box-shadow: 0px 0px 10px #935CDC;
+    transform:rotate(180deg);
+  }
+
+  #car1 {
+    transition: all 1s;
+  }
+
+  .car:hover #car1 {
+    transform: scale(1.1);
+  }
+
+  #car2 {
+    transition: all 1s;
+    transform: rotate(180deg);
+  }
+  
+  #car2 .pie {
+    background-color: #935CDC;
+    box-shadow: 0px 0px 10px #935CDC;
+    transform: rotate(125deg);
+  }
+
+  .car:hover #car2 {
+    transform: scale(1.1) rotate(-180.68deg);
+  }
+  
+  #car_text {
+    transition: all 1s;
+    position: absolute;
+    margin-left: 71.2%;
+    margin-top: 25%;
+    background-color: #935cdcea;
+    box-shadow: 0px 0px 10px #935CDC;
+  }
+
+  .car:hover #car_text {
+    transform: scale(1.1) translate(-16px);
+  }
+  
+  #public {
+    transition: all 1s;
+    transform: rotate(305deg);
+  }
+  
+  #public .pie {
+    background-color: #EB87D8;
+    box-shadow: 0px 0px 10px #EB87D8;
+    transform: rotate(18deg);
+  }
+
+  .public_transit:hover #public {
+    transform: scale(1.1) rotate(-55.68deg);
+  }
+
+  .public_transit:hover #public_text {
+    transform: scale(1.1);
+  }
+
+  #public_text {
+    transition: all 1s;
+    position: absolute;
+    margin-left: -1%;
+    margin-top: 5%;
+    background-color: #EB87D8ea;
+    box-shadow: 0px 0px 10px #EB87D8;
+    }
+
+  #bike {
+    transition: all 1s;
+    transform: rotate(323deg);
+  }
+  
+  #bike .pie {
+    background-color: #FFA4CA;
+    box-shadow: 0px 0px 10px #FFA4CA;
+    transform: rotate(1.8deg);
+  }
+  
+  .bicycle:hover #bike {
+    transform: scale(1.1) rotate(-37.68deg);
+  }
+
+  .bicycle:hover #bike_text {
+    transform: scale(1.1);
+  }
+
+  #bike_text {
+    transition: all 1s;
+    position: absolute;
+    margin-left: -1%;
+    margin-top: 16%;
+    background-color: #FFA4CAea;
+    box-shadow: 0px 0px 10px #FFA4CA;
+  }
+
+  #walk {
+    transition: all 1s;
+    transform: rotate(324.8deg);
+  }
+  
+  #walk .pie {
+    background-color: #6EE1EB;
+    box-shadow: 0px 0px 10px #6EE1EB;
+    transform: rotate(9.36deg);
+  }
+
+  .legs:hover #walk {
+    transform: scale(1.1) rotate(-35.88deg);
+  }
+
+  .legs:hover #walk_text {
+    transform: scale(1.1);
+  }
+
+  #walk_text {
+    transition: all 1s;
+    position: absolute;
+    margin-left: -1%;
+    margin-top: 25%;
+    background-color: #6EE1EBea;
+    box-shadow: 0px 0px 20px #6EE1EB;
+  }
+
+  #home {
+    transition: all 1s;
+    transform: rotate(334deg);
+  }
+  
+  #home .pie {
+    background-color: #845b92;
+    box-shadow: 0px 0px 10px #845b92;
+    transform: rotate(20.52deg);
+  }
+
+  .remote:hover #home {
+    transform: scale(1.1) rotate(-26.52deg);
+  }
+
+  .remote:hover #home_text {
+    transform: scale(1.1) translate(-16px);
+  }
+
+  #home_text {
+    transition: all 1s;
+    position: absolute;
+    margin-left: 71.2%;
+    margin-top: 5%;
+    background-color: #845b92ea;
+    box-shadow: 0px 0px 10px #845b92;
+  }
+
+  #other {
+    transition: all 1s;
+    transform: rotate(354deg);
+  }
+
+  #other .pie {
+    background-color: #A66C98;
+    transform: rotate(6deg);
+  }
+
+  .other:hover #other {
+    transform: scale(1.1) rotate(-6deg);
+  }
+
+  .other:hover #other_text {
+    transform: scale(1.1) translate(-16px);
+  }
+
+  #other_text {
+    transition: all 1s;
+    position: absolute;
+    margin-left: 71.2%;
+    margin-top: 15%;
+    background-color: #a66c98ea;
+    box-shadow: 0px 0px 10px #A66C98;
+  }
+
+  .innerCircle {
+    position: absolute;
+    left:0;
+    right:0;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: #aeafb9e5;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.5) inset;
+    padding-left: 10px;
+    margin-top: 8%;
+  }
+  .innerCircle .content {
+    position: absolute;
+    width: 120px;
+    top: 30px;
+    left: 0;
+    margin-left: 45px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #cargovroom {
+    margin: 0px;
+    width: auto;
+    padding: 0px;
+    grid-column: span 10;
+    background-color: linear-gradient(black,#3b393b);
+  }
+
+  #fact {
+    position: absolute;
+    margin-top: 70%;
+    animation: skrt 6s ease 9s normal 1 forwards;
+    font-size: 70px;
+    text-align: center;
+    left: -750px;
+    color: white;
+  }
+
+  #blue {
+    position: absolute;
+    left: -300px;
+    margin-top: 95%;
+    animation: vroom 6s ease 9s normal 1 forwards;
+    max-width: 350px;
+  }
+
+  #hotpink {
+    position: absolute;
+    left: -300px;
+    margin-top: 50%;
+    animation: vroom 6s ease 8s normal 1 forwards;
+    max-width: 350px;
+
+  }
+
+  #pink {
+    position: absolute;
+    left: -300px;
+    margin-top: 65%;
+    animation: vroom 6s ease 6s normal 1 forwards;
+    max-width: 350px;
+  }
+
+  #purple {
+    position: absolute;
+    left: -300px;
+    margin-top: 80%;
+    animation: vroom 6s ease 5s normal 1 forwards;
+    max-width: 350px;
+  }
+
+  @keyframes vroom {
+    from {
+      left: -300px;
+      width: 300%;
+    }
+  
+    to {
+      left: 830px;
+      width: 100%;
+      opacity:1;
+    }
+  }
+
+  @keyframes skrt {
+      0%      {
+        left: -750px;
+        opacity:0;
+        display: none;
+    }
+      100%    {
+        left:100px;
+        opacity:1;
+        display:block;
+    }
+  }
