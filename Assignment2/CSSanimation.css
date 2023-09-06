@@ -46,7 +46,7 @@ main {
   footer{
     position: absolute;
     margin-left: 1%;
-    margin-top: 2150px;
+    margin-top: 1900px;
   }
 
   a {
@@ -172,7 +172,7 @@ main {
   #car_text {
     transition: all 1s;
     position: absolute;
-    margin-left: 71.5%;
+    margin-left: 71.2%;
     margin-top: 25%;
     background-color: #935cdcea;
     box-shadow: 0px 0px 10px #935CDC;
@@ -288,7 +288,7 @@ main {
   #home_text {
     transition: all 1s;
     position: absolute;
-    margin-left: 71.5%;
+    margin-left: 71.2%;
     margin-top: 5%;
     background-color: #845b92ea;
     box-shadow: 0px 0px 10px #845b92;
@@ -315,7 +315,7 @@ main {
   #other_text {
     transition: all 1s;
     position: absolute;
-    margin-left: 71.5%;
+    margin-left: 71.2%;
     margin-top: 15%;
     background-color: #a66c98ea;
     box-shadow: 0px 0px 10px #A66C98;
@@ -326,8 +326,8 @@ main {
     left:0;
     right:0;
     height: 200px;
-    margin-top: 7.5%;
-    margin-left: 43%;
+    margin-top: 8.5%;
+    margin-left: 41.5%;
     margin-right: 45%;
     width: 200px;
     background-color: #aeafb9e9;
@@ -394,7 +394,7 @@ main {
     }
   
     to {
-      left: 75%;
+      left: 70%;
     }
   }
 
@@ -405,7 +405,7 @@ main {
         display: none;
     }
       100%    {
-        left: 20%;
+        left: 10%;
         opacity:1;
         display:block;
     }
