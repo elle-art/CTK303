@@ -1,0 +1,80 @@
+body {
+    background-color: #ebb2ae;
+}
+
+.player {
+    width: 350%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid blue;
+    display: inline;
+    position: absolute;
+    left: -1950px;
+    transition: all 1s;
+}
+
+
+#amy {
+    width: 900px;
+    height: 900px;
+    padding:0px;
+    margin: 0px;
+    position: absolute;
+    left: -200px;
+    top: 250px;
+    transition: all 1s;
+}
+
+#amy:hover {
+    transform: scale(1.1);
+}
+
+#julie {
+    width: 400px;
+    height: 400px;
+    padding:0px;
+    margin: 0px;
+    position: absolute;
+    left: 450px;
+    top: 500px;
+    transition: all 1s;
+}
+
+#julie:hover {
+    transform: scale(1.1);
+}
+
+#tss {
+    width: 400px;
+    height: 400px;
+    padding:0px;
+    margin: 0px;
+    position: absolute;
+    left: 850px;
+    top: 500px;
+    transition: all 1s;
+}
+
+#tss:hover {
+    transform: scale(1.1);
+}
+
+#billy {
+    width: 400px;
+    height: 400px;
+    padding:0px;
+    margin: 0px;
+    position: absolute;
+    left: 1250px;
+    top: 500px;
+    transition: all 1s;
+}
+
+#billy:hover {
+    transform: scale(1.1);
+}
+
+.player:hover #needle {
+    transform:rotate(180deg);
+}
