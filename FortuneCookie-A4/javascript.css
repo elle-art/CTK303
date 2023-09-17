@@ -1,0 +1,53 @@
+body {
+    color: #454545;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+  }
+
+.page {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+.cookie, .button {
+    margin: 0 auto;
+  }
+
+#eatedCookie {
+    width: 1500px;
+    height: auto;
+    margin-left: -50%;
+}
+
+  .answer {
+    position:absolute;
+    width: 50%;
+    top: 48%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -235px;
+    font-weight: bold;
+    color: #222;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  #questionButton {
+    border-radius: 5px;
+    border: none;
+    color: #f8f8f8;
+    background-color: #77518c;
+    padding: 20px 175px;
+    display: block;
+    margin: 0 auto;
+    font-size: 25px;
+  }
+  
+  header {
+    padding-top: 0.25em;
+    text-align: center;
+  }
+
+  
