@@ -105,6 +105,7 @@ nav ul li a {
   margin: -20px;
   height: 80px;
   border-radius: 30px;
+  box-shadow: 2px 2px 20px 2px #799A81;
 }
 nav ul li a img {
   width: 100px;
